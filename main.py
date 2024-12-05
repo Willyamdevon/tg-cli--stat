@@ -18,7 +18,7 @@ API_HASH = os.getenv('API_HASH')
 SESSION_NAME = os.getenv('SESSION_NAME')
 USER_TO_SEND = os.getenv('USER_TO_SEND')
 
-EXCEPTIONS = ["что", "для", "чтобы", "ага", "еще", "ещё", "вот", "это", "уже", "там", "как", "так", "будет"]
+EXCEPTIONS = ["что", "для", "чтобы", "ага", "еще", "ещё", "вот", "это", "уже", "там", "как", "так", "будет", "меня", "мне", "если", "тут", "тоже", "есть", "про", "типо", "было", "когда", "нас", "только", "или", "нет", "его", "тебе", "они"]
 def create_client():
     return TelegramClient(SESSION_NAME, API_ID, API_HASH)
 
